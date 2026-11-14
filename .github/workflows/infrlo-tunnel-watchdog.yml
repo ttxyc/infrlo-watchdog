@@ -4,6 +4,10 @@
 # standalone, non-fork repository because GitHub scheduled workflows are not
 # reliable in forks.
 #
+# The initial commit was pushed at 2026-11-14T03:04Z; this second commit
+# re-registers the workflow with the scheduler (GitHub can take a while to pick
+# up a newly created scheduled workflow).
+#
 # Every 5 minutes, check the fixed Cloudflare tunnel hostname. If it returns
 # Cloudflare error 1033 / HTTP 530 twice in a row, trigger an Infrlo redeploy
 # through the dashboard API.
